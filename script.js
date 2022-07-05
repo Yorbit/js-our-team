@@ -37,3 +37,22 @@ for (let index = 0; index < teamArray.length; index++) {
     appendParent(newElement);
     console.log(teamArray[index]);
 }
+
+function createElement(member) {
+    const newElement = document.createElement('div');
+
+    newElement.className = ('margin');
+
+    newElement.innerHTML = `<div class= "h-100"></div>`
+
+    return newElement;
+}
+
+function appendParent(element) {
+
+    const parentElement = document.getElementById('wrapped-items');
+
+    parentElement.append(element);
+
+    return parentElement;
+}
