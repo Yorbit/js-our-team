@@ -43,7 +43,17 @@ function createElement(member) {
 
     newElement.className = ('margin');
 
-    newElement.innerHTML = `<div class= "h-100"></div>`
+    newElement.innerHTML = `<div class= "h-100 card">
+    
+            <h5 class="c-title fw-bold">Name</h5>
+
+            <p class="c-text">${member.name}</p>
+
+            <h5 class="c-title fw-bold">Role</h5>
+
+            <p class="c-text">${member.role}</p>
+
+    </div>`
 
     return newElement;
 }
