@@ -30,3 +30,10 @@ const teamArray = [
         image: "barbara-ramos-graphic-designer.jpg"
     },
 ];
+
+for (let index = 0; index < teamArray.length; index++) {
+
+    const newElement = createElement(teamArray[index]);
+    appendParent(newElement);
+    console.log(teamArray[index]);
+}
