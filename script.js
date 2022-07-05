@@ -43,7 +43,7 @@ function createElement(member) {
 
     newElement.className = ('margin col-4');
 
-    newElement.innerHTML = `<div class= "h-100 card">
+    newElement.innerHTML = `<div class= "h-100">
 
             <div class="c-body">
     
