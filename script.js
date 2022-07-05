@@ -41,9 +41,13 @@ for (let index = 0; index < teamArray.length; index++) {
 function createElement(member) {
     const newElement = document.createElement('div');
 
-    newElement.className = ('margin');
+    newElement.className = ('margin col-4');
 
     newElement.innerHTML = `<div class= "h-100 card">
+
+            <div class="c-body">
+    
+            <img class="c-img" src="./img/${member.image}" alt="info">
     
             <h5 class="c-title fw-bold">Name</h5>
 
